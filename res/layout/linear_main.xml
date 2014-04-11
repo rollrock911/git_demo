@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+        <CheckBox
+        android:id="@+id/eatbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eat"
+        />
+    
+                <CheckBox
+        android:id="@+id/sleepbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sleep"
+        />
+                        <CheckBox
+        android:id="@+id/dotabox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dota"
+        />
+                                <CheckBox
+        android:id="@+id/allbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all"
+        />
+
+</LinearLayout>
